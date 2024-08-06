@@ -1,0 +1,32 @@
+.row {
+  text-align: left;
+  flex-wrap: wrap;
+  display: flex;
+}
+
+.btn {
+  background-color: var(--bcolorNyV);
+  color: var(--colorFVR);
+  --bs-btn-hover-bg: var(--colorFVR);
+  --bs-btn-hover-color: var(--colorFB);
+  font: bold 1.1rem var(--fuenteBase);
+  padding: 1rem;
+}
+
+.imgCart {
+  width: 65px;
+}
+
+.divCant {
+  width: 50px;
+}
+
+.divPrice {
+  width: 80px;
+}
+
+@media screen and (min-width: 1280px) {
+  .wrapper {
+    height: calc(100vh - 57px - 52px - 3rem);
+  }
+}

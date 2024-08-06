@@ -1,0 +1,45 @@
+.skipMain {
+  left: -999px;
+  position: absolute;
+  top: auto;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+  z-index: -999;
+}
+
+.skipMain:focus,
+.skipMain:active {
+  color: var(--colorFB);
+  background-color: var(--colorFVC);
+  left: auto;
+  top: auto;
+  width: auto;
+  height: auto;
+  overflow: auto;
+  margin: 10px 35%;
+  padding: 5px;
+  border-radius: 5px;
+  border: 2px solid var(--bcolorNyV);
+  text-align: center;
+  font-size: 1.5em;
+  z-index: 999;
+}
+
+.vincnav {
+  color: var(--colorFVR) !important;
+}
+
+.vincnav:hover {
+  color: var(--colorFVC) !important;
+}
+
+.navbar {
+  min-height: 25px;
+  background-color: var(--bcolorNyV) !important;
+  border-bottom: 1px solid #45b6cc;
+}
+
+.isotipoNav {
+  max-height: 50px;
+}

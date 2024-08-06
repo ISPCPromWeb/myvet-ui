@@ -1,0 +1,20 @@
+.toastWrapper {
+  position: absolute;
+  bottom: 1rem;
+  right: 1rem;
+  width: 20rem;
+  height: 4rem;
+  background: var(--colorFVC);
+  color: var(--colorFB);
+  border-radius: 0.75rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.toastText {
+  margin: 0;
+  padding: 1rem;
+  font-size: 1rem;
+  font-weight: 500;
+}

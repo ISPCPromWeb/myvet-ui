@@ -1,0 +1,40 @@
+@media screen and (min-width: 768px) {
+  .lista {
+    list-style: none;
+    list-style-position: outside;
+    font-size: 1.3em !important;
+  }
+  .elemLista2 {
+    font-size: 1.3em;
+    padding-bottom: 0.5px !important;
+    padding-right: 0.3em;
+    margin-top: 0px;
+    color: var(--colorFB);
+  }
+
+  .vincnav {
+    color: var(--colorFVR) !important;
+  }
+
+  .vincnav:hover {
+    color: var(--colorFVC) !important;
+  }
+
+  .navbar {
+    min-height: 25px;
+    background-color: var(--bcolorNyV) !important;
+    border-bottom: 1px solid #45b6cc;
+  }
+
+  .btn-toggle::before {
+    width: 1.25em;
+    line-height: 0;
+    content: url("../../public/assets/flecha.png");
+    transition: transform 0.35s ease;
+    transform-origin: 0.5em 50%;
+    transform: rotate(90deg);
+  }
+  .btn-toggle[aria-expanded="true"]::before {
+    transform: rotate(90deg);
+  }
+}

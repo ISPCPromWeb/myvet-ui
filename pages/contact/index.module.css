@@ -1,0 +1,22 @@
+.contacto {
+  border-top: 1px solid #45b6cc;
+}
+
+.btn {
+  background-color: var(--bcolorNyV);
+  color: var(--colorFVR);
+}
+.consulta {
+  color: var(--azulPaleta);
+}
+
+.jumbotron {
+  background-color: var(--bcolorB);
+  padding: 2%;
+}
+
+.row {
+  text-align: left;
+  flex-wrap: wrap;
+  display: flex;
+}

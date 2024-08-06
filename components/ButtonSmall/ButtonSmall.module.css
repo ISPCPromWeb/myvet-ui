@@ -1,0 +1,23 @@
+.btn1 {
+  background-color: var(--bcolorNyV) !important;
+  color: var(--colorFVR);
+  text-align: center;
+  font: bold 1rem var(--fuenteBase);
+  border-radius: 5px;
+  padding: 0.5em;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.btn1:hover {
+  color: var(--colorFVC) !important;
+}
+
+@media screen and (min-width: 768px) {
+  .btn1 {
+    align-self: flex-start;
+    margin: 0.5em 0 0.5em 0;
+    width: auto;
+    padding: 0.5em 1em 0.5em 1em;
+    display: inline-block;
+  }
+}

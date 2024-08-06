@@ -1,0 +1,53 @@
+.btn {
+  font: bold 0.8rem var(--fuenteBase);
+  color: var(--colorFVR) !important;
+}
+.navbar {
+  min-height: auto;
+  background-color: var(--bcolorNyV) !important;
+  border-bottom: 1px solid #45b6cc;
+}
+
+.navbarBrand {
+  color: var(--colorFVR) !important;
+}
+
+.navItem {
+  color: var(--colorFVR) !important;
+}
+
+@media screen and (min-width: 768px) {
+  .vincnav {
+    color: var(--colorFVR) !important;
+  }
+
+  .vincnav:hover {
+    color: var(--colorFVC) !important;
+  }
+
+  .navbar {
+    min-height: 25px;
+    background-color: var(--bcolorNyV) !important;
+    border-bottom: 1px solid #45b6cc;
+  }
+
+  .btn {
+    background-color: var(--colorFVR) !important;
+    color: var(--colorFB) !important;
+    text-align: center;
+    font: bold 1rem var(--fuenteBase);
+    border-radius: 5px;
+    padding: 0.5em !important;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  }
+
+  .btn:hover {
+    color: var(--colorFB) !important;
+    background-color: var(--colorFVC) !important;
+  }
+  .vincnavH4 {
+    font: bold 1.5rem var(--fuenteBase);
+    color: var(--colorFVR) !important;
+    padding-bottom: 1.5em;
+  }
+}

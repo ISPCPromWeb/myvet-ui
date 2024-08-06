@@ -1,0 +1,78 @@
+:root {
+  --fuenteMarca: "Cabin", sans-serif;
+  --fuenteBase: "Varta", sans-serif; /* PARA BAJARLAS EN EL .HTML: <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cabin:wght@400;700&family=Varta:wght@400;700&display=swap" rel="stylesheet">*/
+
+  --colorFB: #454150; /* color Fuente de textos Base  */
+  --colorFVC: #45b6cc; /* color Fuente Celeste, para Vinculos de la Página, y hover de las nav  */
+  --colorFVR: #ffe4e9; /* color Fuente Rosa, para Vinculos de las Nav, y Hover de la Página  */
+  --bcolorB: #f5f5f5; /*backgrond color Base, es decir, de TODA la página*/
+  --bcolorNyV: #454150; /* background color de las Navs y los Vinculos de la Página*/
+  --azulPaleta: #0c479d; /*color extra*/
+  --fucsiaPaleta: #fc6294; /*color extra*/
+  --cremaPaleta: #fcf5e3; /*color extra*/
+}
+
+h1 {
+  font: bold 80px var(--fuenteMarca) !important;
+  word-spacing: 15px;
+  letter-spacing: 3px;
+  color: var(--colorFB) !important;
+}
+body {
+  font-family: var(--fuenteBase);
+  font-weight: 300;
+  color: var(--colorFB);
+  background-color: var(--bcolorB);
+}
+main {
+  font-family: var(--fuenteBase);
+  color: var(--colorFB) !important;
+  background-color: var(--bcolorB);
+}
+h2 {
+  color: var(--colorFB);
+  font-family: var(--fuenteBase);
+  font-weight: 700;
+  padding-top: 5%;
+}
+p {
+  font-size: medium;
+  font-family: var(--fuenteBase);
+}
+h3 {
+  font-family: var(--fuenteBase);
+  color: var(--colorFB) !important;
+  padding: 0.5rem;
+}
+
+h4 {
+  font-family: var(--fuenteBase);
+  color: var(--colorFB) !important;
+}
+
+footer {
+  background: var(--bcolorNyV);
+  font-family: var(--fuenteBase);
+}
+footer p {
+  color: var(--colorFVR);
+  text-align: center;
+  font-size: 0.8rem;
+}
+
+footer a {
+  color: var(--colorFVR);
+  text-align: center;
+  font-size: 0.8rem;
+}
+
+span {
+  color: var(--colorFB);
+  font-family: var(--fuenteBase);
+}
+
+.main-container-height {
+  height: 100vh;
+}

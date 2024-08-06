@@ -1,0 +1,9 @@
+.clientsList {
+  margin: 0.5em;
+}
+
+@media screen and (min-width: 768px) {
+  .clientsList {
+    margin: 2em 2em 0 0;
+  }
+}

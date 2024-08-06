@@ -1,0 +1,12 @@
+.contactatefooter {
+  color: var(--colorFVR);
+}
+
+.contactatefooter:hover {
+  color: var(--colorFVC);
+}
+
+.iconos {
+  max-height: 30px;
+  padding: 0.8px;
+}

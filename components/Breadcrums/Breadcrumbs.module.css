@@ -1,0 +1,15 @@
+.vinculos {
+  color: var(--colorFB);
+  text-align: center;
+  font: bold 1rem var(--fuenteBase);
+  border-radius: 5px;
+  padding: 10px;
+}
+
+.vinculos:hover {
+  color: var(--colorFVC) !important;
+}
+
+.contBreadcrumb {
+  margin-bottom: 0.1rem !important;
+}

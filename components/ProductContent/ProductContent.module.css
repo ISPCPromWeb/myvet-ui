@@ -1,0 +1,49 @@
+@media screen and (min-width: 768px) {
+  .h2Hero {
+    margin-top: 2em;
+    word-spacing: 5px;
+    font-weight: bold;
+  }
+  .h2Description {
+    word-spacing: 5px;
+    font-weight: bold;
+  }
+
+  .servicios {
+    border-radius: 50px;
+    margin-bottom: 20px;
+  }
+
+  .parag {
+    font-size: 1.5em;
+  }
+  .vinculos {
+    background-color: var(--bcolorNyV) !important;
+    color: var(--colorFVC);
+    text-align: center;
+    font: bold 1.5rem var(--fuenteBase);
+    border-radius: 5px;
+    padding: 10px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  }
+
+  .vinculos:hover {
+    color: var(--colorFVR) !important;
+  }
+
+  .btn {
+    background-color: var(--bcolorNyV);
+    color: var(--colorFVC);
+    border-radius: 5px;
+    padding: 0.5em;
+    font: bold 1.2em var(--fuenteBase);
+  }
+  .btn:hover {
+    color: var(--colorFVR) !important;
+    background-color: var(--bcolorNyV);
+  }
+
+  .borderRadius {
+    border-radius: 50px;
+  }
+}

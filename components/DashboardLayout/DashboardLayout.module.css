@@ -1,0 +1,28 @@
+.dashboardLayout {
+  min-height: calc(100vh - 57px - 75px);
+  height: max-content;
+}
+
+.sidebar {
+  width: 100%;
+}
+
+.content {
+  width: 100%;
+}
+
+@media screen and (min-width: 768px) {
+  .dashboardLayout {
+    min-height: calc(100vh - 57px - 52px);
+    display: flex;
+    gap: 2rem;
+  }
+
+  .sidebar {
+    width: 20%;
+  }
+
+  .content {
+    width: 80%;
+  }
+}

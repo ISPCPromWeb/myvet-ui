@@ -1,0 +1,126 @@
+.popularProducts {
+  width: 100%;
+  max-width: 1280px;
+  margin: 0 auto;
+  padding-bottom: 3rem;
+}
+
+.cardsContainer {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: 1rem;
+  margin-top: 1em;
+  margin-bottom: 1.5em;
+}
+
+.cardWrapper {
+  min-height: 5rem;
+  width: calc(100% / 3 - 2 * 1rem / 3);
+  height: max-content;
+  background: var(--bcolorB);
+  border: 1px solid var(--bcolorNyV);
+  border-radius: 10px;
+  padding: 1em;
+  margin-bottom: 1em;
+}
+
+.cardImage {
+  height: 70%;
+  width: 100%;
+  background: var(--bcolorNyV);
+  border-radius: 10px 10px 0 0;
+}
+
+.cardTitle {
+  font-size: 1.5rem;
+  font-weight: 700;
+  color: var(--bcolorNyV);
+  margin: 1rem;
+}
+
+.cardPrice {
+  font-size: 1.25rem;
+  font-weight: 400;
+  color: var(--bcolorNyV);
+  margin: 1.5rem;
+}
+.vinculos {
+  background-color: var(--bcolorNyV) !important;
+  color: var(--colorFVC);
+  text-align: center;
+  font: bold 1.5rem var(--fuenteBase);
+  border-radius: 5px;
+  padding: 10px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.vinculos:hover {
+  color: var(--colorFVR) !important;
+}
+
+@media (max-width: 992px) {
+  .servicioFila {
+    width: 100% !important;
+    text-align: center;
+  }
+  .lista {
+    text-align: left;
+  }
+  .icono-wrap {
+    flex-wrap: wrap;
+    justify-content: center !important;
+  }
+  .imgVetDuenos {
+    max-width: 50%;
+  }
+}
+
+@media (max-width: 768px) {
+  #hero {
+    text-align: center;
+    justify-content: center;
+    font: 70%;
+  }
+  .servicio-fila {
+    width: 100% !important;
+    text-align: center;
+    font-size: 50%;
+  }
+  .icono-wrap {
+    flex-wrap: wrap;
+    justify-content: center !important;
+  }
+  .imgVetDuenos {
+    max-width: 250px;
+  }
+  .lista {
+    text-align: left;
+  }
+  .vinculos {
+    font-size: 3em;
+    padding: 20px;
+    display: flex;
+  }
+  #contacto {
+    display: none;
+  }
+}
+
+@media (max-width: 576px) {
+  .icono-wrap {
+    flex-wrap: wrap;
+    justify-content: center !important;
+  }
+  .imgVetDuenos {
+    display: none;
+  }
+  .vinculos {
+    font-size: 2.2em !important;
+    padding: 15px;
+  }
+  #contacto {
+    display: none;
+  }
+}

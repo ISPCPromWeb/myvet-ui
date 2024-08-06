@@ -1,0 +1,65 @@
+.imgSmall {
+  max-width: 50%;
+  height: auto;
+  display: block;
+}
+
+.h1Small {
+  font-size: 3em !important;
+}
+.btn {
+  background-color: var(--bcolorNyV) !important;
+  color: var(--colorFVR) !important;
+  display: block;
+}
+
+.vincnav {
+  background-color: none;
+  font-weight: bold;
+}
+.vincnav:hover {
+  background-color: var(--colorFVC);
+}
+
+@media (min-width: 768px) {
+  .h1Small {
+    font-size: 4em !important;
+  }
+}
+
+@media screen and (min-width: 992px) {
+  .imgSmall {
+    display: none;
+  }
+
+  .row {
+    text-align: left;
+    flex-wrap: wrap;
+    display: flex;
+  }
+
+  .flecha {
+    background-color: var(--colorFB);
+    width: 2rem;
+    height: 2rem;
+  }
+  .caption {
+    background-color: var(--colorFB);
+  }
+  .fondoCarrusel {
+    background-color: var(--colorFB);
+    max-width: relative;
+    padding: 2%;
+  }
+  .img1 {
+    background-image: url("/assets/IconoDueños.png");
+    background-size: cover;
+    background-position: center;
+  }
+  .img2 {
+    background-image: url("/assets/IconoVetes.png");
+    background-size: cover;
+    background-position: center;
+    max-height: 50%;
+  }
+}

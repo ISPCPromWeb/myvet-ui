@@ -1,0 +1,14 @@
+  
+  .navbar {
+    min-height: 15px;
+    background-color: var(--bcolorNyV) !important;
+    border-bottom: 1px solid #45b6cc;
+  }
+
+.h2Cart{
+    font: var(--fuenteMarca);
+    color: var(--colorFVR) !important;
+    padding-top: 1.2rem;
+    padding-bottom: 0.9rem;
+}
+  

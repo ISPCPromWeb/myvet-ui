@@ -1,0 +1,47 @@
+.lista {
+  list-style: none;
+  list-style-position: outside;
+  font-size: 1.2em;
+  margin-left: 2em;
+}
+
+.lista2 {
+  list-style: none;
+}
+
+.elemLista {
+  padding-bottom: 1px !important;
+}
+
+.elemLista::before {
+  content: "•"; /* Insert content that looks like bullets    "•" */
+
+  font-size: 40px;
+  padding-right: 0.3em;
+  margin-top: 0px;
+  color: var(--bcolorNyV);
+}
+
+.elemLista2 {
+  font-size: 1em;
+  padding-bottom: 0.5px !important;
+  padding-right: 0.3em;
+  margin-top: 0px;
+  color: var(--bcolorNyV);
+}
+
+.parag {
+  font-size: 0.5em;
+}
+
+.btn {
+  background-color: var(--bcolorNyV);
+  color: var(--colorFVR);
+  border-radius: 5px;
+  padding: 10px;
+}
+.row {
+  text-align: left;
+  flex-wrap: wrap;
+  display: flex;
+}

@@ -1,0 +1,8 @@
+.btn {
+  background-color: var(--bcolorNyV);
+  color: var(--colorFVR);
+}
+.btn:hover {
+  color: var(--bcolorNyV) !important;
+  background-color: var(--colorFVC);
+}
