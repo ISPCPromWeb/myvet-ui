@@ -34,7 +34,7 @@ export const getServerSideProps = async (context: any) => {
     access_token: process.env.MEPA_TOKEN || "",
   });
 
-  const URL = "https://myvet-three.vercel.app/";
+  const URL = "https://myvet-ui.vercel.app/";
 
   const preference: any = {
     items: formattedCart,
