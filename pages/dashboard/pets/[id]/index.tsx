@@ -1,7 +1,7 @@
 import Link from "next/link";
 import styles from "./index.module.css";
 import { petsApi, userApi } from "@/api";
-import DashboardLayout from "@/components/DashboardLayout/DashboardLayout";
+import { DashboardLayout } from "@/components/DashboardLayout";
 import { ButtonSmall } from "@/components/ButtonSmall";
 
 export const getServerSideProps = async (req: any) => {

@@ -1,4 +1,4 @@
-import DashboardLayout from "@/components/DashboardLayout/DashboardLayout";
+import { DashboardLayout } from "@/components/DashboardLayout";
 import styles from "./index.module.css";
 import { petsApi } from "@/api";
 import Link from "next/link";

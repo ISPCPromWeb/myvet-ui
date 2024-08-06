@@ -1,6 +1,6 @@
 import styles from "./Header.module.css";
 import { Navigation } from "../Navigation";
-import CartLayout from "../CartLayout/CartLayout";
+import { CartLayout } from "../CartLayout";
 import { useAppContext } from "@/context";
 
 export const Header = (props: any) => {

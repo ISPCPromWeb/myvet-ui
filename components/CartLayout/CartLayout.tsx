@@ -1,11 +1,9 @@
 import { CartHeader } from "@/components/CartHeader";
 
-const CartLayout = () => {
+export const CartLayout = () => {
   return (
     <>
       <CartHeader />
     </>
   );
 };
-
-export default CartLayout;

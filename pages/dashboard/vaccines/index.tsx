@@ -2,7 +2,7 @@ import Link from "next/link";
 import styles from "./index.module.css";
 import { petsApi, productsApi } from "@/api";
 import Image from "next/image";
-import DashboardLayout from "@/components/DashboardLayout/DashboardLayout";
+import { DashboardLayout } from "@/components/DashboardLayout";
 import { ButtonSmall } from "@/components/ButtonSmall";
 import { vaccinesApi } from "@/api/vaccines";
 import { useRouter } from "next/navigation";

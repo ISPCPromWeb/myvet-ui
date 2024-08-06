@@ -1,7 +1,7 @@
 import styles from "./index.module.css";
 import { userApi } from "@/api";
 import { ButtonSmall } from "@/components/ButtonSmall";
-import DashboardLayout from "@/components/DashboardLayout/DashboardLayout";
+import { DashboardLayout } from "@/components/DashboardLayout";
 import { Toast } from "@/components/Toast";
 import { WithAuth } from "@/components/WithAuth";
 import Link from "next/link";

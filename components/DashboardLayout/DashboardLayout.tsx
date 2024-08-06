@@ -1,7 +1,7 @@
 import { Sidebar } from "@/components/Sidebar/Sidebar";
 import styles from "./DashboardLayout.module.css";
 
-const DashboardLayout = ({ children }: any) => {
+export const DashboardLayout = ({ children }: any) => {
   return (
     <div className={styles.dashboardLayout}>
       <section className={`${styles.sidebar} `}>
@@ -11,5 +11,3 @@ const DashboardLayout = ({ children }: any) => {
     </div>
   );
 };
-
-export default DashboardLayout;

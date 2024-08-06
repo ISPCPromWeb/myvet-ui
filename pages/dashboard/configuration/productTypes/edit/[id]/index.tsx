@@ -1,6 +1,6 @@
 import { ButtonSmall } from "@/components/ButtonSmall";
 import styles from "./index.module.css";
-import DashboardLayout from "@/components/DashboardLayout/DashboardLayout";
+import { DashboardLayout } from "@/components/DashboardLayout";
 import { useRouter } from "next/navigation";
 import { productsApi } from "@/api";
 import { useState } from "react";

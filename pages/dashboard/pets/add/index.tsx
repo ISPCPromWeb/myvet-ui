@@ -1,7 +1,7 @@
 import { useRouter } from "next/navigation";
 import styles from "./index.module.css";
 import { petsApi, userApi } from "@/api";
-import DashboardLayout from "@/components/DashboardLayout/DashboardLayout";
+import { DashboardLayout } from "@/components/DashboardLayout";
 import { ButtonSmall } from "@/components/ButtonSmall";
 import { useEffect, useState } from "react";
 import { LEVELS } from "@/constants";

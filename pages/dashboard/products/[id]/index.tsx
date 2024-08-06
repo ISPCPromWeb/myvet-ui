@@ -1,7 +1,7 @@
 import Link from "next/link";
 import styles from "./index.module.css";
 import { productsApi } from "@/api";
-import DashboardLayout from "@/components/DashboardLayout/DashboardLayout";
+import { DashboardLayout } from "@/components/DashboardLayout";
 import { ButtonSmall } from "@/components/ButtonSmall";
 import Image from "next/image";
 import { API_URL_IMAGE } from "@/api/constants";

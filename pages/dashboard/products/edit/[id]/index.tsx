@@ -1,7 +1,7 @@
 import { ButtonSmall } from "@/components/ButtonSmall";
 import styles from "./index.module.css";
 import { petsApi, productsApi } from "@/api";
-import DashboardLayout from "@/components/DashboardLayout/DashboardLayout";
+import { DashboardLayout } from "@/components/DashboardLayout";
 import { useRouter } from "next/navigation";
 import Image from "next/image";
 import { useState } from "react";

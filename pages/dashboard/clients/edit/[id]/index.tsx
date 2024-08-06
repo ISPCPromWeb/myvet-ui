@@ -1,7 +1,7 @@
 import { ButtonSmall } from "@/components/ButtonSmall";
 import styles from "./index.module.css";
 import { userApi } from "@/api";
-import DashboardLayout from "@/components/DashboardLayout/DashboardLayout";
+import { DashboardLayout } from "@/components/DashboardLayout";
 import { useRouter } from "next/navigation";
 import { FormEvent, useState } from "react";
 import { WithAuth } from "@/components/WithAuth";
